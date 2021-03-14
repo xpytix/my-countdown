@@ -16,7 +16,7 @@ const countdownObjects = [
         image:hny
     },
     {
-        name: "STRANGER THINGS SEASON 4 RELEASE DATE",
+        name: "STRANGER THINGS SEASON 4",
         date: "30 July 2021",
         image: stranger_things
     },
@@ -26,22 +26,22 @@ const countdownObjects = [
         image: happy_birthday
     },
     {
-        name: "LA CASA DE PAPEL (MONEY HEIST) SEASON 5 PREMIERE DATE",
+        name: "LA CASA DE PAPEL SEASON 5 ",
         date: "20 August 2021",
         image: lacasa
     },
     {
-        name: "SPIDER-MAN: NO WAY HOME RELEASE DATE",
+        name: "SPIDER-MAN: NO WAY HOME",
         date: "2 December 2021",
         image: spiderman
     },
     {
-        name: "AVATAR 2 RELEASE DATE",
+        name: "AVATAR 2",
         date: "16 December 2022",
         image: avatar
     },
     {
-        name: "OFF-WHITE x Nike Air Force 1 Low “University Gold”",
+        name: "OFF-WHITE x Nike “University Gold”",
         date: "7 July 2021",
         image: university_gold
     },

@@ -6,18 +6,19 @@ export const CountdownItem = ({item}) => {
     const countdownDate = new Date(item.date);
     const currentDate = new Date();
     const style={
-        backgroundImage: `url(${item.image})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: '100% 100%',
-        opacity: 0.7
+
     }
     const totalSeconds = (countdownDate - currentDate);
     return (
-        <Countdown
+        <Countdown className='box'
             date={Date.now() + totalSeconds}
             renderer={props => <div style={style} className={'box '+ item.name}>
-                <h3 className='title'>{item.name}</h3>
-                {props.days} : {props.hours} : {props.minutes} : {props.seconds}
+                <img src={item.image} className={'background'}/>
+                <div className='countdown'>
+                    <h3 className='title'>{item.name}</h3>
+                    <p className='numbers'>{props.days}:{props.hours}:{props.minutes}:{props.seconds}</p>
+                    <p className='days'> DAYS HOURS MINUTES SECONDS</p>
+                </div>
             </div>}
         />
     );
