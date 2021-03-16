@@ -67,3 +67,18 @@
     padding-bottom: 10px;
     opacity: 1;
 }
+.deleteBtn{
+    box-sizing: border-box;
+    z-index: 1;
+    color: #ffc300;
+    background-color: transparent;
+    border: 0;
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    position: absolute;
+    margin: 10px;
+}
+button:hover{
+    color: #ff0000;
+}
