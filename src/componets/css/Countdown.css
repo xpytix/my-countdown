@@ -1,0 +1,96 @@
+.formCountdown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid  #ffc300;
+
+}
+.formCountdown p{
+    padding-top: 25px;
+    color: #2f2f2f;
+    text-shadow:
+            0 0 5px #ffc300,
+            0 0 5px #ffc300;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 2.7rem;
+}
+.formTitle{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    width: 60%;
+    color: black;
+
+}
+.formDate{
+    border: none;
+    font-size: 1.5rem;
+    background-color: #ffffff;;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+
+}
+.formSubmit{
+    border: none;
+    background-color: #ffc300;
+    border-radius: 52px;
+    font-size: 1.5rem;
+    color: #2f2f2f;
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 40%;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.hny{
+    background-image: url("images/hny.jpg");
+}
+.money{
+    background-image: url("images/money-min.jpeg");
+}
+.spiderman{
+    background-image: url("images/spider-man-no-way-home-logo-01-700x400-1-min.jpeg");
+}
+
+.selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+.selector input:active +.radioImage{opacity: .9;}
+.selector input:checked +.radioImage{
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+.radioImage{
+
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:80px;
+    height:80px;
+    margin: 10px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.radioImage:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
