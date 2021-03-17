@@ -5,7 +5,7 @@ import './css/CountdownList.css';
 
 export const CountdownList = ({array, deleteObj}) => {
     let items = array.map((item) =>
-        <CountdownItem key={item.name} item={item} deleteObj={deleteObj}/>
+        <CountdownItem key={item.id} item={item} deleteObj={deleteObj}/>
     )
 
     return (

@@ -9,7 +9,7 @@
 
 }
 .formCountdown p{
-    padding-top: 25px;
+    padding-top: 20px;
     color: #2f2f2f;
     text-shadow:
             0 0 5px #ffc300,
@@ -60,37 +60,34 @@
 .spiderman{
     background-image: url("images/spider-man-no-way-home-logo-01-700x400-1-min.jpeg");
 }
+.selector{
+    width: 50%;
+    height: 100px!important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+.selector label{
+    width: 40px;
+    height: 40px;
+}
+.selector img{
+    width: 45px;
+    height: 45px;
+}
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
 
-.selector input{
-    margin:0;padding:0;
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
 }
-.selector input:active +.radioImage{opacity: .9;}
-.selector input:checked +.radioImage{
-    -webkit-filter: none;
-    -moz-filter: none;
-    filter: none;
-}
-.radioImage{
 
-    cursor:pointer;
-    background-size:contain;
-    background-repeat:no-repeat;
-    display:inline-block;
-    width:80px;
-    height:80px;
-    margin: 10px;
-    -webkit-transition: all 100ms ease-in;
-    -moz-transition: all 100ms ease-in;
-    transition: all 100ms ease-in;
-    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
-    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
-    filter: brightness(1.8) grayscale(1) opacity(.7);
-}
-.radioImage:hover{
-    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
-    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
-    filter: brightness(1.2) grayscale(.5) opacity(.9);
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    outline: 2px solid #ffc300;
 }

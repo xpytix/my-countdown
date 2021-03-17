@@ -4,3 +4,13 @@
   box-sizing: border-box;
 
 }
+button:active,
+button:focus,
+button:hover,
+input:focus,
+input:hover
+{
+  border:none !important;
+  outline:none !important;
+  cursor: pointer;
+}
