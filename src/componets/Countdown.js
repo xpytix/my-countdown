@@ -142,33 +142,35 @@ export const Countdown = () => {
                     >Add countdown</motion.p>
                     <input className='formTitle' type="text" placeholder='Title...' value={text} onChange={handleChangeText}/>
                     <input className='formDate' type="date" min='2021-3-15' max="2032-12-31" value={date} onChange={handleChangeDate}/>
-                    <div className="selector" onChange={handleChangeRadio}>
-                        <label>
-                            <input type="radio" name="img" value={sport}/>
-                                <img src={sport}/>
-                        </label>
+                    <div className="boxSelector">
+                        <div className="selector" onChange={handleChangeRadio}>
+                            <label>
+                                <input type="radio" name="img" value={sport}/>
+                                    <img src={sport}/>
+                            </label>
 
-                        <label>
-                            <input type="radio" name="img" value={money}/>
-                                <img src={money}/>
-                        </label>
-                        <label>
-                            <input type="radio" name="img" value={job}/>
-                            <img src={job}/>
-                        </label>
-                        <label>
-                            <input type="radio" name="img" value={party}/>
-                            <img src={party}/>
-                        </label>
-                        <label>
-                            <input type="radio" name="img" value={travel}/>
-                            <img src={travel}/>
-                        </label>
+                            <label>
+                                <input type="radio" name="img" value={money}/>
+                                    <img src={money}/>
+                            </label>
+                            <label>
+                                <input type="radio" name="img" value={job}/>
+                                <img src={job}/>
+                            </label>
+                            <label>
+                                <input type="radio" name="img" value={party}/>
+                                <img src={party}/>
+                            </label>
+                            <label>
+                                <input type="radio" name="img" value={travel}/>
+                                <img src={travel}/>
+                            </label>
 
-                        <label>
-                            <input type="radio" name="img" value={fun}/>
-                            <img src={fun}/>
-                        </label>
+                            <label>
+                                <input type="radio" name="img" value={fun}/>
+                                <img src={fun}/>
+                            </label>
+                        </div>
                     </div>
                     <input className='formSubmit' value='ADD' type="submit" onClick={handleSubmit}/>
                 </motion.div>
