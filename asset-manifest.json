@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-countdown/static/css/main.fb5de53c.chunk.css",
+    "main.js": "/my-countdown/static/js/main.4ee03ded.chunk.js",
+    "main.js.map": "/my-countdown/static/js/main.4ee03ded.chunk.js.map",
+    "runtime-main.js": "/my-countdown/static/js/runtime-main.8c260bf2.js",
+    "runtime-main.js.map": "/my-countdown/static/js/runtime-main.8c260bf2.js.map",
+    "static/js/2.af57e466.chunk.js": "/my-countdown/static/js/2.af57e466.chunk.js",
+    "static/js/2.af57e466.chunk.js.map": "/my-countdown/static/js/2.af57e466.chunk.js.map",
+    "static/js/3.f959a780.chunk.js": "/my-countdown/static/js/3.f959a780.chunk.js",
+    "static/js/3.f959a780.chunk.js.map": "/my-countdown/static/js/3.f959a780.chunk.js.map",
+    "index.html": "/my-countdown/index.html",
+    "static/css/main.fb5de53c.chunk.css.map": "/my-countdown/static/css/main.fb5de53c.chunk.css.map",
+    "static/js/2.af57e466.chunk.js.LICENSE.txt": "/my-countdown/static/js/2.af57e466.chunk.js.LICENSE.txt",
+    "static/media/avatar-min.cdba2784.jpg": "/my-countdown/static/media/avatar-min.cdba2784.jpg",
+    "static/media/fun.5fac9093.jpg": "/my-countdown/static/media/fun.5fac9093.jpg",
+    "static/media/happy_birthday-min.22c07c16.jpeg": "/my-countdown/static/media/happy_birthday-min.22c07c16.jpeg",
+    "static/media/Countdown.css": "/my-countdown/static/media/spider-man-no-way-home-logo-01-700x400-1-min.65b3b819.jpeg",
+    "static/media/job.20e634de.jpg": "/my-countdown/static/media/job.20e634de.jpg",
+    "static/media/la_casa_de_papel-min.b4b9495e.jpeg": "/my-countdown/static/media/la_casa_de_papel-min.b4b9495e.jpeg",
+    "static/media/lead-off-white-nike-air-force-1-university-gold-dd1876-700-release-date.eb4e3aa3.jpeg": "/my-countdown/static/media/lead-off-white-nike-air-force-1-university-gold-dd1876-700-release-date.eb4e3aa3.jpeg",
+    "static/media/party.45f93837.jpg": "/my-countdown/static/media/party.45f93837.jpg",
+    "static/media/sport.8b888ef7.jpg": "/my-countdown/static/media/sport.8b888ef7.jpg",
+    "static/media/stranger-things-min.ed06177d.jpeg": "/my-countdown/static/media/stranger-things-min.ed06177d.jpeg",
+    "static/media/travel.dd29e56e.jpg": "/my-countdown/static/media/travel.dd29e56e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c260bf2.js",
+    "static/js/2.af57e466.chunk.js",
+    "static/css/main.fb5de53c.chunk.css",
+    "static/js/main.4ee03ded.chunk.js"
+  ]
+}
